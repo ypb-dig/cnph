@@ -1,0 +1,487 @@
+/*
+Theme Name: CNPH
+Author: Ypb Marketing Digital
+Author URI: http://www.ypb.com.br/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+html{
+	font-size:14px;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.justify {
+	text-align: justify;
+}
+
+p{
+	line-height: 20px;
+}
+
+.font__style {
+	font-size: 16px;
+	word-spacing: 4px;
+	text-align: justify;
+}
+
+a, a:hover{
+	text-decoration:none;
+}
+
+h2.section-heading{
+	color:#004291;
+}
+
+.pt-3 a {
+	margin: 0;
+}
+
+li.nav-item{
+	padding:5px;
+}
+li a.platform{
+	padding:5px;
+	border:1px solid;
+	transition: 0.3s;
+}
+li a.platform:hover{
+	background:#fff;
+	color:#004394 !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link{
+	font-size:16px;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #a6d7f6;
+}
+#mainNav .navbar-nav .nav-item {
+    margin-right: 0;
+}
+
+/* Botões */
+.btn-primary {
+    color: #fff;
+    background-color: #1d4e89;
+    border-color: #1d4e89;
+	text-transform:uppercase;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #222529;
+    border-color: #222529;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, 
+.btn-primary:not(:disabled):not(.disabled).active, 
+.show > .btn-primary.dropdown-toggle {
+    background-color: #222529;
+    border-color: #222529;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    background-color: #222529;
+    border-color: #222529;
+    box-shadow: 0 0 0 0.2rem rgb(34 37 41);
+}
+
+header.masthead.home{
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+}
+
+header.masthead.quem-somos{
+	background-image: url(http://homolog.ypb.com.br/cnph/wp-content/uploads/2021/01/empresa1.jpg);
+}
+
+header.masthead.nosso-time{
+	background-image: url(http://homolog.ypb.com.br/cnph/wp-content/uploads/2021/01/nosso-time.jpg);
+}
+
+header.masthead.produtos{
+	background-image: url(http://homolog.ypb.com.br/cnph/wp-content/uploads/2021/01/produtos.jpg);
+}
+
+header.masthead.projetos{
+	background-image: url(http://homolog.ypb.com.br/cnph/wp-content/uploads/2021/01/projetos.jpg);
+}
+
+header.masthead.eventos{
+	background-image: url(http://homolog.ypb.com.br/cnph/wp-content/uploads/2021/01/evento.jpg);
+}
+
+header.masthead.contato{
+	background-image: url(http://homolog.ypb.com.br/cnph/wp-content/uploads/2021/01/contato.jpg);
+}
+
+header.masthead.logistica{
+	background-image: url(http://homolog.ypb.com.br/cnph/wp-content/uploads/2021/01/logistica.jpg);
+}
+
+header.masthead.higienizacao{
+	background-image: url(http://homolog.ypb.com.br/cnph/wp-content/uploads/2021/01/higienizacao.jpg);
+}
+
+header.masthead.educacao{
+	background-image: url(http://homolog.ypb.com.br/cnph/wp-content/uploads/2021/01/educacao.jpg);
+}
+
+header.masthead.cme{
+	background-image: url(http://homolog.ypb.com.br/cnph/wp-content/uploads/2021/01/cme.jpg);
+}
+
+header.masthead.tecno{
+	background-image: url(http://homolog.ypb.com.br/cnph/wp-content/uploads/2021/01/tencovigilancia.jpg);
+}
+
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: .6s;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
+
+.carousel-caption {
+    right: 50%;
+    bottom: 250px;
+    left: 15%;
+    color: #004291;
+    text-align: left;
+}
+
+.card.bg-blue{
+	min-height: 135px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    padding: 20px !important;
+}
+
+.bg-blue{
+	background:#1d4e89;
+}
+
+.bg-blue .card-body{
+	color:#fff;
+	font-size: 1.5rem;
+	line-height: 1.6rem;
+	min-height: 145px;
+}
+
+.border-radius-img {
+    position: absolute;
+    right: 11px;
+    bottom: 0px;
+}
+
+.border-radius-img img{
+	width:55px;
+}
+
+.border-upr-downl15{
+	-webkit-border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-topright: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;	
+}
+
+.border-upr-downl10{
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#portfolio .portfolio-item .portfolio-caption{
+	text-align:left;
+	min-height: 191px;
+	-webkit-box-shadow: 0px 3px 9px 0px rgba(218,218,218,1);
+	-moz-box-shadow: 0px 3px 9px 0px rgba(218,218,218,1);
+	box-shadow: 0px 3px 9px 0px rgba(218,218,218,1);
+}
+
+.portfolio-caption-subheading{
+	font-style:inherit !important;
+}
+
+.portfolio-caption-subheading p{
+	line-height: 18px;
+}
+
+.icon-process{
+	position: absolute;
+    bottom: -18px;
+    left: 38px;
+}
+
+#mainNav .navbar-brand img {
+    height: auto;
+    max-width: 120px;
+    margin-top: -12px;
+}
+
+/* .navbar::before {
+	content: "";
+    background-image: url(http://homolog.ypb.com.br/cnph/wp-content/uploads/2021/01/after-logo.png);
+    width: 558px;
+    position: absolute;
+    margin-left: -240px;
+    margin-top: -57px;
+	height: 165px;
+	z-index: 111;
+} */
+
+/* Card */
+
+.card-body {
+    background: #f7f7f8;
+}
+
+.card-body span{
+	font-size: 0.9rem;
+	line-height: initial;
+}
+
+.card.box{
+	border:0;
+	-webkit-box-shadow: 0px 3px 9px 0px rgba(233,233,233,1);
+	-moz-box-shadow: 0px 3px 9px 0px rgba(233,233,233,1);
+	box-shadow: 0px 3px 9px 0px rgba(233,233,233,1);
+}
+
+p.card-text{
+	font-size: 13px;
+    line-height: 19px;
+}
+
+.card-link1{
+	color: #fff;
+    background-color: #080f1f;
+    padding: 10px 20px;
+	text-transform:uppercase;
+	width:100%;
+	display:block;
+	text-align:center;
+}
+
+.card-link2{
+	color: #fff;
+    background-color: #228e34;
+    padding: 10px 20px;
+	text-transform:uppercase;
+	width:100%;
+	display:block;
+	text-align:center;
+}
+
+.card.produtos .card-header{
+	background-color: #e0f2fe;
+	color:#504f51;
+	text-transform:uppercase;
+	font-size:18px;
+}
+
+.card.produtos .card-text{
+	font-size:1.0rem;
+	line-height:1.5rem;
+}
+
+.card.simulacao{
+	background:#dedfdf;
+}
+
+section#contact {
+    background-color:#fff;
+}
+
+.number{
+	color:#fff;
+	text-align:center;
+}
+
+.number span{
+	font-size: 3.5rem;
+    font-weight: bold;
+	
+}
+
+.dropdown-item.active, .dropdown-item:active{
+	background-color: #7dc9fa !important;
+}
+
+/*Carousel*/
+.carousel-control-prev, .carousel-control-next{
+	font-size: 40px;
+    margin: -70px;
+}
+.carousel-control-prev, 
+.carousel-control-next,
+.carousel-control-prev:hover, 
+.carousel-control-next:hover,
+.carousel-control-prev:focus, 
+.carousel-control-next:focus{
+	color:#000;
+}
+.carousel-indicators{
+	bottom: -65px;
+}
+.carousel-indicators li{
+	background-color: #525252;
+}
+
+/* Modal */
+.modal-content {
+    background-color: #f2f2f2;
+}
+
+.modal-medium{
+	max-width: 50% !important;
+    margin: 0 auto !important;
+}
+
+.portfolio-modal .modal-content {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.copyright a{
+	color:#00bdb0;
+}
+
+.footer{
+	background:#263d48;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer img.logo-ymk{
+	max-height:80px;
+}
+
+.footer .companies{
+	background:#4F4F4F;
+}
+
+.footer .logos a{
+	padding:0 10px;
+	text-decoration:none;
+}
+
+.footer .logos img{
+	height:24px;
+}
+
+.has-vivid-red-color{
+    color:red;
+}
+
+.wp-block-file__button{
+    padding: 0px 10px;
+    background: #033d84;
+    color: #fff;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+}
+
+#newsletters form{
+    justify-content: center !important;
+	display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#newsletters input{
+	width:100%;
+	max-width:100%;
+}
+#newsletters .wpcf7-response-output{
+    position: absolute;
+    margin-top: 170px;
+}
+
+@media (max-width: 768px){
+	.modal-medium {
+		max-width: 90% !important;
+	}
+	#mainNav{
+		background-color: #fff !important;
+	}
+	#mainNav .navbar-brand img{
+		max-width: 80px !important;
+	}
+	#mainNav .navbar-toggler{
+		background-color: #01348e;
+	}
+	.col-sm-6{
+		width:50% !important;
+	}
+	body{
+		overflow-x:none;
+	}
+	.carousel-control-next, .carousel-control-prev{
+		display:none !important;
+	}
+	.redes{
+		margin-top:0 !important;
+		top: 40px !important;
+	}
+	.navbar-collapse.collapse.show li a{
+		padding:5px 10px !important;
+	}
+	.copyright{
+		text-align:center !important;
+	}
+	.page-section {
+   		padding: 2rem 0;
+	}
+	#services p.pt-3.text-center a {
+    line-height: 46px;
+	}
+	footer .logo img{
+		max-width:80px !important;
+	}
+}
+
+@media (min-width: 768px){
+	header.masthead .masthead-subheading {
+		font-style:normal;
+	}
+	.carousel-control-prev, .carousel-control-next{
+		margin: 0 !important;
+	}
+}
