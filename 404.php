@@ -5,6 +5,8 @@
     <div class="breadcrumb right">Home <i class="fa fa-angle-right"></i> <a href="#" class="current">404 Error</a></div>
     <div class="clear"></div>
   </div>
+
+  
 </section>
 
 <section class="module page-not-found">
